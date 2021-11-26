@@ -7,13 +7,19 @@
 <body>
 <a href="cadastrar_documentos/">Cadastrar Documentos</a>
 <hr>
+
+
 <hr>
 {%for documento in documentos%}
 Nome: {{documento.nome}}<br>
 CPF: {{documento.cpf}}<br>
-Contrato Social: {{documento.contrato_social}}<br>
+
+Contrato Social: {{documento.contrato_social }}<br>
 <br>
 <br>
 {%endfor%}
+
+
+
 </body>
 </html>
